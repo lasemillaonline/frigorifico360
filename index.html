@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vigilante Frío 360° | Sistema de Monitoreo Inteligente con WebControl+IA</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; background: #eef7fb; padding: 2rem; color: #1c1c1c; }
+    h1 { font-size: 3rem; color: #003366; margin-bottom: 0.5rem; }
+    h2 { font-size: 2rem; color: #005599; margin-top: 2.5rem; }
+    h3 { font-size: 1.4rem; color: #0077cc; margin-top: 1.5rem; }
+    p { font-size: 1.1rem; }
+    ul { margin-left: 2rem; margin-top: 0.5rem; }
+    li { margin-bottom: 0.5rem; }
+
+    .intro { background: #ffffff; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    .nivel { background: #ffffff; border-left: 6px solid #0077cc; padding: 2rem; border-radius: 12px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); margin-top: 2rem; }
+    .cta { background: #003366; color: white; padding: 2rem; border-radius: 12px; margin-top: 3rem; text-align: center; font-size: 1.2rem; }
+    .cta a { color: #fff200; font-weight: bold; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <h1>🧊 VIGILANTE FRÍO 360°</h1>
+  <h2>Convierte cualquier equipo de refrigeración en un sistema inteligente con WebControl+IA</h2>
+
+  <div class="intro">
+    <p>
+      Refrigeradores que avisan antes de fallar. Cámaras comerciales que se autoregulan. Sistemas industriales que se diagnostican solos.<br><br>
+      Con el poder de <strong>WebControl+IA</strong>, ahora puedes <strong>monitorear, controlar y predecir fallas</strong> en tu sistema de frío desde cualquier lugar del mundo. Este proyecto te transforma en el <strong>guardián digital del frío</strong>, con tecnología al alcance de todos.
+    </p>
+  </div>
+
+  <div class="nivel">
+    <h2>🔹 NIVEL 1: HELADERA DOMÉSTICA INTELIGENTE</h2>
+    <h3>🎯 Objetivo:</h3>
+    <p>Vigilar la temperatura de una heladera familiar en tiempo real y recibir alertas ante fallas o cortes de energía.</p>
+
+    <h3>👤 Cliente ideal:</h3>
+    <p>Familias, adultos mayores, técnicos de mantenimiento domiciliario.</p>
+
+    <h3>📍 Sensores sugeridos:</h3>
+    <ul>
+      <li><strong>Sensor 1:</strong> Zona de alimentos</li>
+      <li><strong>Sensor 2:</strong> Freezer o evaporador</li>
+    </ul>
+
+    <h3>⚙️ Componentes necesarios:</h3>
+    <ul>
+      <li>1 ESP8266 (NodeMCU o Wemos D1 Mini)</li>
+      <li>2 sensores DS18B20</li>
+      <li>Conexión Wi-Fi + Cuenta en Adafruit IO</li>
+    </ul>
+
+    <h3>🌐 Funciones WebControl+IA:</h3>
+    <ul>
+      <li>Dashboard en la nube con lectura en tiempo real</li>
+      <li>Alertas por e-mail o WhatsApp ante fallas</li>
+      <li>Historial de temperaturas y reportes automáticos</li>
+    </ul>
+  </div>
+
+  <div class="nivel">
+    <h2>🔹 NIVEL 2: CÁMARA FRIGORÍFICA COMERCIAL</h2>
+    <h3>🎯 Objetivo:</h3>
+    <p>Controlar cámaras de frío en negocios, optimizando rendimiento y evitando pérdidas de productos.</p>
+
+    <h3>👤 Cliente ideal:</h3>
+    <p>Comercios minoristas, carnicerías, heladerías, almacenes, técnicos instaladores.</p>
+
+    <h3>📍 Sensores sugeridos:</h3>
+    <ul>
+      <li><strong>Sensor 1:</strong> Zona media del interior</li>
+      <li><strong>Sensor 2:</strong> Salida del evaporador</li>
+      <li><strong>Sensor 3:</strong> Temperatura exterior (opcional)</li>
+    </ul>
+
+    <h3>⚙️ Componentes necesarios:</h3>
+    <ul>
+      <li>ESP8266 + módulo relé</li>
+      <li>3 sensores DS18B20</li>
+      <li>Dashboard personalizado en Adafruit IO</li>
+    </ul>
+
+    <h3>🌐 Funciones WebControl+IA:</h3>
+    <ul>
+      <li>Control automático del compresor</li>
+      <li>Alarmas por temperatura fuera de rango</li>
+      <li>Registro semanal para auditoría y mejora energética</li>
+    </ul>
+  </div>
+
+  <div class="nivel">
+    <h2>🔹 NIVEL 3: SISTEMA INDUSTRIAL ESCALABLE</h2>
+    <h3>🎯 Objetivo:</h3>
+    <p>Supervisar plantas de refrigeración complejas, aplicando inteligencia artificial para diagnosticar y optimizar procesos.</p>
+
+    <h3>👤 Cliente ideal:</h3>
+    <p>Industrias alimentarias, farmacéuticas, ingenieros especializados en refrigeración.</p>
+
+    <h3>📍 Sensores sugeridos:</h3>
+    <ul>
+      <li><strong>Sensor 1:</strong> Retorno del evaporador</li>
+      <li><strong>Sensor 2:</strong> Salida del evaporador</li>
+      <li><strong>Sensor 3:</strong> Entrada del condensador</li>
+      <li><strong>Sensor 4:</strong> Ambiente exterior</li>
+    </ul>
+
+    <h3>⚙️ Componentes necesarios:</h3>
+    <ul>
+      <li>ESP32 + múltiples relés y fuente protegida</li>
+      <li>4 sensores DS18B20 o sensores industriales (4-20 mA)</li>
+      <li>Servidor MQTT local + Adafruit IO remoto</li>
+    </ul>
+
+    <h3>🌐 Funciones WebControl+IA:</h3>
+    <ul>
+      <li>Diagnóstico térmico automático (ΔT)</li>
+      <li>IA entrenada con datos históricos</li>
+      <li>Control remoto de compresores, ventiladores y alarmas</li>
+    </ul>
+  </div>
+
+  <div class="cta">
+    <p><strong>¿Querés construir este sistema paso a paso y ofrecerlo como servicio profesional?</strong><br>
+    Accede a la Diplomatura WebControl+IA y transforma tu conocimiento técnico en ingresos reales.</p>
+    <p><a href="https://api.whatsapp.com/send?phone=5491166416777&text=solicito%20info" target="_blank">👉 Envíame un mensaje por WhatsApp</a></p>
+    <p><strong>Prof. Ing. Víctor – Escuela de Superhéroes Digitales</strong><br>“Crea, programa y controla: ¡Sé un héroe digital!”</p>
+  </div>
+
+</body>
+</html>
